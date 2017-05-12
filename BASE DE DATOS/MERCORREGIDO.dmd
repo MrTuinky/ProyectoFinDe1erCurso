@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MERCORREGIDO" id="83C96324-8B69-06C6-0DFB-619CDDDCDCED" version="3.5">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 05:54:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<modelPersistence>2</modelPersistence>
+<capitalNames>false</capitalNames>
+<designId>83C96324-8B69-06C6-0DFB-619CDDDCDCED</designId>
+</OSDM_Design>

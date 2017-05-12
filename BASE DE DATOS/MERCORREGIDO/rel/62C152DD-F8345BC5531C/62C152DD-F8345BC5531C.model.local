@@ -1,0 +1,1154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="62C152DD-3F3D-EE82-B643-F8345BC5531C" mainViewID="48993383-8A1D-B1A9-E776-A11AC9A6816C">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<Tables>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2D2F2EF-8058-56A0-9AE4-FE30565A88C7" name="Avisos">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>4861516B-DCBB-9068-CADC-9022EB910E41</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRABAJADOR_Usuario" id="13D013FC-E7F5-BDE9-BF55-B580CD8199C6">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>826F748D-0F45-73F1-60D6-C355EF4FD585</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2272087E-69D3-85FD-73DE-6C705D921AF1" referredColumn="DEDB47D9-473E-EAD2-1D34-A97857343C20"/>
+</associations>
+</Column>
+<Column name="Fecha_Aviso" id="5611E17B-2BFB-64C3-CED4-AB05E6EF01B7">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>CA9711D6-634A-3171-23A9-DD44781705FE</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comentario" id="FC03BD12-1DE1-EC89-1477-39C691B1F921">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>C70FF094-B912-1927-F13F-1CF342A97A0E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="849B0AD1-B87F-3735-788E-B77C11A0C9B5" name="Avisos_TRABAJADOR_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>9275D7C4-99D2-A2D9-1ECC-3F58D38A9BC6</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D013FC-E7F5-BDE9-BF55-B580CD8199C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE04D024-4C7D-2FFA-507B-A541E614914F" name="CENTRO">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>AD67913E-7CAD-1B00-0DCE-27C5C879C3E6</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre" id="48EBEE9B-CF52-8E9E-D5D0-2EEDC550968E">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>A793CB74-97D8-706C-BA81-83A119F7B9D5</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="072DB4A9-503D-9FA5-1EEF-9CF78E3C256F">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>708CA04C-66AA-A71D-7576-B52B0501041A</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="6492A42A-CEDE-E0F0-0DE5-1BF2B034414D">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>F57AFDB5-F61E-7C87-150F-811A7C254D17</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_Postal" id="136C1AC1-D85E-5658-7CAC-67191E30D432">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>5C7A72E5-CABD-30A4-AEE5-0610763E8002</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="3A3FD478-331A-71DC-0023-F73D62E2924D">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>C0A7ECB2-288A-FF9E-4707-0A82024418C6</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="C7EE98D4-DECD-066D-2C2B-C1A190572C73">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>DC700233-C505-F31A-3ECA-678B32874E0E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia" id="D115F708-6641-0598-E330-08FE65ED66EB">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>5E24537E-B366-E5E8-CEF8-D1796147060E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO_ID1" id="8152D7E6-AD4F-6910-D985-667FF03E43A5">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB8DBEEF-725F-950E-898D-A8F30223FC2B" name="CENTRO_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8152D7E6-AD4F-6910-D985-667FF03E43A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C8EAB5A-E686-64B7-1E9A-301A5B6D3442" name="CENTRO_CENTRO_ID_UN">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>010BF58B-6062-9945-1110-1EAB159A6740</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AE78D2C-DD33-EE9F-9123-D2FE02BFF05B" name="PARTE">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>8AA74B64-6D27-5A86-D62C-B4F1EAE92256</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Num_Parte" id="29A13B06-1BBF-1A3C-6220-62F93A0C1DA5">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>047F919D-8C09-6AEC-171A-E17D1ACF61B5</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Km_principio" id="ECE3F43C-D312-DFC3-8442-852FF36005D1">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>2DEBA58F-9F64-01D2-3570-C87361D527B6</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Km_final" id="53E929E4-176B-1EC1-A7DA-A47BEA4B5D87">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>3248C067-A30D-F26D-3630-92480DA8F5AE</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="1BA32013-CB5C-C2F0-E3E0-11DC6D520BC9">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>3D908146-90CB-0F9F-2753-3442D5B66447</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="AAFD3B82-B2E7-A092-9E16-CADFF63C4C3A">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>3EDFA14E-7EF3-EDF0-2292-C7AFF3CAC64E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto_gasoil" id="F381A570-5F9D-135E-638C-61EEC752CF37">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>55CEF192-4DE5-DBA8-16D1-84692747BADF</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto_autopista" id="42F9E41C-2801-183A-B6B2-C01851617F4A">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>0FA9EC48-2D44-6A4C-8457-496F46495D33</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto_dietas" id="6C1F4EC4-A0EF-DFE9-A40A-58E86262BABE">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>BDDDAA8A-DF13-EC17-C262-3BBE25E61234</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gastos_varios" id="B238FC08-7B7C-06A5-C336-0A6545E45783">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>E7BFB7B7-863E-66D6-94E9-806C5BF91157</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Indicencias" id="F90EA823-AC1B-62D5-CA08-E4EE767D6D10">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>2CF1AA42-4474-E996-84EF-7F33B385069C</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Validar" id="EA001312-986F-454A-6CA9-2EE4663F1A10">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>BF4F89C0-8E43-1BEB-A07B-2686D4C16DB0</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADOR_Usuario" id="A158D2AD-7FCF-61E0-F177-8DB13A9FCC61">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>D6A0A4AF-E994-634A-550F-08C85EE6986F</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C39DA8C1-F733-8C46-2F7D-E217A9D353EA" referredColumn="DEDB47D9-473E-EAD2-1D34-A97857343C20"/>
+</associations>
+</Column>
+<Column name="Horas_Parte" id="12C63490-35F0-A5FE-505C-96CCEF106AF9">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>233B02DA-12C5-42CD-F15B-D906F7E4E2BB</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICULO_Matricula" id="80EA5382-39E9-F7B9-B596-28E6DD8D758C">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>021B859A-2BAE-FCD6-7444-1B5FB39855F6</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D27DBBC-B631-387C-3DA9-1477B1FD237D" referredColumn="C031CD64-394C-80F2-A7A7-08F9FF787621"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4FB43E6-666A-5C16-B45A-92AA2EB9F245" name="PARTE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>1142B93B-881C-4D41-8D74-9C68CD139165</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29A13B06-1BBF-1A3C-6220-62F93A0C1DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00ECBC0E-8965-B9DB-4C5A-FD43B5A8DA4F" name="PARTE__IDX">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="80EA5382-39E9-F7B9-B596-28E6DD8D758C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF23A89-DB54-0996-5254-546ECCFDE819" name="PARTE_TRABAJADOR_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>51346FE8-5E52-DFBB-077B-CE53D96D21BB</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A158D2AD-7FCF-61E0-F177-8DB13A9FCC61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62906308-4752-F649-609C-6182B20F37DF" name="PARTE_VEHICULO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80EA5382-39E9-F7B9-B596-28E6DD8D758C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC6D7D8-F603-37B1-83AB-5459DE103CDA" name="TRABAJADOR">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>1A88A047-8498-39EA-670E-2F0DD5960DA5</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario" id="DEDB47D9-473E-EAD2-1D34-A97857343C20">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>5EC5E900-9D0E-BBBE-F954-DA764292E9D1</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrasena" id="BED65310-FDAA-C59F-CC9B-14E94AAE39D2">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>6C2AE8C0-8FD2-9165-EF56-64ABBCCFD49B</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="60C81E10-FB6E-23F6-F9A9-903C4AD1BA93">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>7C2616A7-8943-DA36-DD98-DC201AA95031</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B40DCBAB-9FD9-70FA-800C-A2354A56D7D8">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>60FA97CC-69DC-1B24-AE72-502F0B77E628</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_1" id="FF4B4410-AF69-A130-DF9F-20FBAE80799B">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>FA71B0F7-C9EB-50EC-13D8-4B34BEC4FC94</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_2" id="359780DF-B881-A47A-7372-1A750D5A2F51">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>82A79C49-A6D1-D5B0-A9A0-C3FAF4C2D357</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="622B07E0-829F-FD94-0AC0-5ABF0CFD380A">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>BA13C821-ACDB-7B65-46E2-ECB46C41FED7</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Portal" id="C95C89F3-9D6A-B8C4-709D-F43C652B6AE4">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>5A9EDC3B-B7CA-76FC-580C-C1B72E0C2954</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Piso" id="45F16043-920C-BE19-E27D-909392A30D43">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>B2C3FD9F-B5B6-8D70-5319-F5F6E0F67BF0</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mano" id="578D8F9C-6B25-994A-6820-EC13659DC852">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>EED3227C-93CF-1E65-7B14-0426F513FAB1</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="96FA6D9E-A5E8-D09D-F6C9-3705495A2DEC">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>B08519CE-2C0A-3DB8-BCA4-7242CE36E82B</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono_Empresa" id="4B03B82A-CD72-38E1-096C-1DDB3454136C">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>DF34A087-FCED-FAB1-9B68-FF4670720FEF</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono_Personal" id="5D43284E-3556-5029-9098-1FDDEF839B8F">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>DF487CAF-626C-3EEB-A9D4-D9862A097C94</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="0A6DE72A-C9B1-B930-569F-A487E1B39EAB">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>AE488CF7-98B6-1797-91F0-12BC90A84018</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Nacimiento" id="07B63CDF-F965-C384-ADFF-56F5C85B2B9B">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>67C2264F-A5D2-6DFE-4BA9-A733C23AAA3D</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO_ID" id="314D5947-510D-DFCB-9244-850A22ED0CCA">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:51 UTC</createdTime>
+<generatorID>C4DBFE58-A96A-1944-2E21-15995B47C85D</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E4BF794-60D2-AA7C-68CA-5DCF40C59303" name="TRABAJADOR_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>2F790F4E-561D-AAEE-F664-2F7B41A7BAE2</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="314D5947-510D-DFCB-9244-850A22ED0CCA"/>
+<colUsage columnID="DEDB47D9-473E-EAD2-1D34-A97857343C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D1D1321-8084-22DE-AE6A-9060AA88FCFB" name="TRABAJADOR_CENTRO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>3D10DD0D-F8D2-DA1E-9CA5-8F2543F9DD28</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86BB2A45-2C99-FFEF-52E4-CA2F8324C110" name="VEHICULO">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>A90A5257-0922-4B66-EDC6-9BE094B50D5F</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Matricula" id="C031CD64-394C-80F2-A7A7-08F9FF787621">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>787752D3-1BDE-5AB5-8F9F-1291B9CA4545</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="C508795C-6BE5-F346-E512-510388A94500">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>D32AAB77-8DC7-28FC-412B-DE9FE893B8DB</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="1055A3BC-990E-9EF2-8502-BF37E3017EAE">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>CF998974-5344-03C7-9BA9-02A47A27D34E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTE_Num_Parte" id="A2FF051C-F644-E248-452C-98FFAABE0181">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>93385416-CEF0-7BB5-B292-FB87152051E3</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="739BF6E5-D5DA-1786-962A-57F418A21330" referredColumn="29A13B06-1BBF-1A3C-6220-62F93A0C1DA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4419E42-600E-2B56-9A67-E328E28B9C05" name="VEHICULO_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>79FAE2BE-5392-DE00-E67C-E99D8C0EFF4D</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C031CD64-394C-80F2-A7A7-08F9FF787621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C11E0C4-BB0C-FEE2-C93E-984B3F39588B" name="VEHICULO__IDX">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A2FF051C-F644-E248-452C-98FFAABE0181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16FFD7DD-0F44-9495-3F85-ED43E4322FAE" name="VEHICULO_PARTE_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2FF051C-F644-E248-452C-98FFAABE0181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CDF197A-7ECC-D5F2-FE21-01E85101391D" name="VIAJE">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>FB94301E-F813-F48E-FE01-5D2B7718285E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Viaje" id="D2E3AB9A-739F-22F1-DA76-A843FCE53283">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>5A8E6BB0-2443-EAE3-0003-87F9FBFB3B00</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_salida" id="206CC007-03DA-ECF0-D4BC-D30D524CBB31">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>94D8AD2F-B7E5-43D1-AA16-E0E6F843333E</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_llegada" id="2C66F5DC-7EE0-EB71-3C8E-40E86CF8D071">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>2ECA9C9C-2586-A429-028D-96185109C326</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICULO_Matricula" id="EE4D5831-D62E-5787-AFD5-534450FD088A">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>F8CB8CB0-767F-8CDA-152A-21E5AA40C07A</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="717DC730-0DB0-EAA1-CF97-5A3EC398E761" referredColumn="C031CD64-394C-80F2-A7A7-08F9FF787621"/>
+</associations>
+</Column>
+<Column name="Total_horas_viaje" id="3BE44013-DD2C-68D2-B4D3-B272E5239B35">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>DB443932-2AF0-B361-C72B-EA420D2AA044</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTE_Num_Parte" id="A0AE933D-D935-8684-69B7-62FA8891F900">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>A0B92E3E-7086-6D46-93F6-35B6E2D60C6B</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D536F2D1-7D05-17A4-CB41-E7ADD39F9858" referredColumn="29A13B06-1BBF-1A3C-6220-62F93A0C1DA5"/>
+</associations>
+</Column>
+<Column name="Usuario" id="6B299B9A-F794-2A24-AA13-4DFE399EDACA">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>46E81F3E-8FC5-2804-699D-4D6C330C8FC2</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58D73450-3BBC-4199-26D1-683596F99022" name="VIAJE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>7FF39D61-A2B2-FE6E-14B4-941A749154FC</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E3AB9A-739F-22F1-DA76-A843FCE53283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272A19D4-1B07-FA64-7EB9-736CF521DDC2" name="VIAJE_PARTE_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>2E900440-A327-02D5-C6DB-13DB2F18642A</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0AE933D-D935-8684-69B7-62FA8891F900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A88AB986-5FE6-137E-7985-B443EFBBC674" name="VIAJE_VEHICULO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>4FC6BD85-D507-1C7A-7976-380305F7AD3A</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE4D5831-D62E-5787-AFD5-534450FD088A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+</Tables>
+<ForeignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2272087E-69D3-85FD-73DE-6C705D921AF1" containerWithKeyObject="D2D2F2EF-8058-56A0-9AE4-FE30565A88C7" localFKIndex="849B0AD1-B87F-3735-788E-B77C11A0C9B5" name="Avisos_TRABAJADOR_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>9275D7C4-99D2-A2D9-1ECC-3F58D38A9BC6</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFC6D7D8-F603-37B1-83AB-5459DE103CDA</referredTableID>
+<keyObject>4E4BF794-60D2-AA7C-68CA-5DCF40C59303</keyObject>
+<referredKeyID>4E4BF794-60D2-AA7C-68CA-5DCF40C59303</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C39DA8C1-F733-8C46-2F7D-E217A9D353EA" containerWithKeyObject="7AE78D2C-DD33-EE9F-9123-D2FE02BFF05B" localFKIndex="0CF23A89-DB54-0996-5254-546ECCFDE819" name="PARTE_TRABAJADOR_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>51346FE8-5E52-DFBB-077B-CE53D96D21BB</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFC6D7D8-F603-37B1-83AB-5459DE103CDA</referredTableID>
+<keyObject>4E4BF794-60D2-AA7C-68CA-5DCF40C59303</keyObject>
+<referredKeyID>4E4BF794-60D2-AA7C-68CA-5DCF40C59303</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D27DBBC-B631-387C-3DA9-1477B1FD237D" containerWithKeyObject="7AE78D2C-DD33-EE9F-9123-D2FE02BFF05B" localFKIndex="62906308-4752-F649-609C-6182B20F37DF" name="PARTE_VEHICULO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86BB2A45-2C99-FFEF-52E4-CA2F8324C110</referredTableID>
+<keyObject>D4419E42-600E-2B56-9A67-E328E28B9C05</keyObject>
+<referredKeyID>D4419E42-600E-2B56-9A67-E328E28B9C05</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="881D21EF-7BD1-EEEA-F676-2801FC31DBDE" containerWithKeyObject="AFC6D7D8-F603-37B1-83AB-5459DE103CDA" localFKIndex="2D1D1321-8084-22DE-AE6A-9060AA88FCFB" name="TRABAJADOR_CENTRO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>3D10DD0D-F8D2-DA1E-9CA5-8F2543F9DD28</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE04D024-4C7D-2FFA-507B-A541E614914F</referredTableID>
+<keyObject>6C8EAB5A-E686-64B7-1E9A-301A5B6D3442</keyObject>
+<referredKeyID>6C8EAB5A-E686-64B7-1E9A-301A5B6D3442</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="739BF6E5-D5DA-1786-962A-57F418A21330" containerWithKeyObject="86BB2A45-2C99-FFEF-52E4-CA2F8324C110" localFKIndex="16FFD7DD-0F44-9495-3F85-ED43E4322FAE" name="VEHICULO_PARTE_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AE78D2C-DD33-EE9F-9123-D2FE02BFF05B</referredTableID>
+<keyObject>B4FB43E6-666A-5C16-B45A-92AA2EB9F245</keyObject>
+<referredKeyID>B4FB43E6-666A-5C16-B45A-92AA2EB9F245</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D536F2D1-7D05-17A4-CB41-E7ADD39F9858" containerWithKeyObject="8CDF197A-7ECC-D5F2-FE21-01E85101391D" localFKIndex="272A19D4-1B07-FA64-7EB9-736CF521DDC2" name="VIAJE_PARTE_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>2E900440-A327-02D5-C6DB-13DB2F18642A</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AE78D2C-DD33-EE9F-9123-D2FE02BFF05B</referredTableID>
+<keyObject>B4FB43E6-666A-5C16-B45A-92AA2EB9F245</keyObject>
+<referredKeyID>B4FB43E6-666A-5C16-B45A-92AA2EB9F245</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="717DC730-0DB0-EAA1-CF97-5A3EC398E761" containerWithKeyObject="8CDF197A-7ECC-D5F2-FE21-01E85101391D" localFKIndex="A88AB986-5FE6-137E-7985-B443EFBBC674" name="VIAJE_VEHICULO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-05-09 23:45:52 UTC</createdTime>
+<generatorID>4FC6BD85-D507-1C7A-7976-380305F7AD3A</generatorID>
+<ownerDesignName>MERCORREGIDO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86BB2A45-2C99-FFEF-52E4-CA2F8324C110</referredTableID>
+<keyObject>D4419E42-600E-2B56-9A67-E328E28B9C05</keyObject>
+<referredKeyID>D4419E42-600E-2B56-9A67-E328E28B9C05</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+</ForeignKeys>
+<mainView class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="48993383-8A1D-B1A9-E776-A11AC9A6816C">
+<createdBy>acer</createdBy>
+<modifiedBy>acer</modifiedBy>
+<createdTime>2017-05-09 23:45:34 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7AE78D2C-DD33-EE9F-9123-D2FE02BFF05B" otype="Table" vid="882DF0DD-880C-44A6-815B-3C196D226507">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="734" y="38" width="292" height="292"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="86BB2A45-2C99-FFEF-52E4-CA2F8324C110" otype="Table" vid="BD72F43C-ACB6-1631-71F4-626573CD3D20">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="496" y="359" width="276" height="181"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8CDF197A-7ECC-D5F2-FE21-01E85101391D" otype="Table" vid="AF78CE07-8E43-A4D1-0665-4C0A322192E1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="837" y="361" width="311" height="184"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="AFC6D7D8-F603-37B1-83AB-5459DE103CDA" otype="Table" vid="4FC95673-4CFE-E171-6AFA-CFCF2FB196A7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="352" y="34" width="299" height="300"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BE04D024-4C7D-2FFA-507B-A541E614914F" otype="Table" vid="140ED193-A617-6B83-36E1-65AD3EB82D2F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="16" y="34" width="240" height="182"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D2D2F2EF-8058-56A0-9AE4-FE30565A88C7" otype="Table" vid="CC8DE562-5977-56F6-6D8B-FF79265CD205">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="12" y="248" width="242" height="99"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="2272087E-69D3-85FD-73DE-6C705D921AF1" otype="FKIndexAssociation" vid_source="4FC95673-4CFE-E171-6AFA-CFCF2FB196A7" vid_target="CC8DE562-5977-56F6-6D8B-FF79265CD205">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="352" y="291"/>
+<point x="254" y="291"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6D27DBBC-B631-387C-3DA9-1477B1FD237D" otype="FKIndexAssociation" vid_source="BD72F43C-ACB6-1631-71F4-626573CD3D20" vid_target="882DF0DD-880C-44A6-815B-3C196D226507">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="763" y="359"/>
+<point x="763" y="330"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="717DC730-0DB0-EAA1-CF97-5A3EC398E761" otype="FKIndexAssociation" vid_source="BD72F43C-ACB6-1631-71F4-626573CD3D20" vid_target="AF78CE07-8E43-A4D1-0665-4C0A322192E1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="772" y="450"/>
+<point x="837" y="450"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="739BF6E5-D5DA-1786-962A-57F418A21330" otype="FKIndexAssociation" vid_source="882DF0DD-880C-44A6-815B-3C196D226507" vid_target="BD72F43C-ACB6-1631-71F4-626573CD3D20">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="753" y="330"/>
+<point x="753" y="359"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="881D21EF-7BD1-EEEA-F676-2801FC31DBDE" otype="FKIndexAssociation" vid_source="140ED193-A617-6B83-36E1-65AD3EB82D2F" vid_target="4FC95673-4CFE-E171-6AFA-CFCF2FB196A7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="256" y="125"/>
+<point x="352" y="125"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C39DA8C1-F733-8C46-2F7D-E217A9D353EA" otype="FKIndexAssociation" vid_source="4FC95673-4CFE-E171-6AFA-CFCF2FB196A7" vid_target="882DF0DD-880C-44A6-815B-3C196D226507">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="651" y="184"/>
+<point x="734" y="184"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D536F2D1-7D05-17A4-CB41-E7ADD39F9858" otype="FKIndexAssociation" vid_source="882DF0DD-880C-44A6-815B-3C196D226507" vid_target="AF78CE07-8E43-A4D1-0665-4C0A322192E1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="931" y="330"/>
+<point x="931" y="361"/>
+</points>
+</Connector>
+</connectors>
+</mainView>
+</relationalModel>

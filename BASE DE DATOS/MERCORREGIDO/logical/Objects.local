@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="4861516B-DCBB-9068-CADC-9022EB910E41" name="Avisos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AD67913E-7CAD-1B00-0DCE-27C5C879C3E6" name="CENTRO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8AA74B64-6D27-5A86-D62C-B4F1EAE92256" name="PARTE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1A88A047-8498-39EA-670E-2F0DD5960DA5" name="TRABAJADOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A90A5257-0922-4B66-EDC6-9BE094B50D5F" name="VEHICULO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FB94301E-F813-F48E-FE01-5D2B7718285E" name="VIAJE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9275D7C4-99D2-A2D9-1ECC-3F58D38A9BC6" name="AVISOS_RELACION_TRABAJADOR " seqName="seg_0"/>
+   <object objectType="Relation" objectID="3D10DD0D-F8D2-DA1E-9CA5-8F2543F9DD28" name="CENTRO_RELACION_TRABAJADOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="51346FE8-5E52-DFBB-077B-CE53D96D21BB" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2E900440-A327-02D5-C6DB-13DB2F18642A" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C2FEB2C4-4CE9-706D-C01A-08B4F0B36C27" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4FC6BD85-D507-1C7A-7976-380305F7AD3A" name="VIAJE_RELACION_VEHICULO" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
